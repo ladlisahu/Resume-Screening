@@ -141,7 +141,7 @@ def generate_rag_justification(jd_text, top_chunks):
 
 # streamlit UI
 st.set_page_config(page_title="Resume RAG Screener", layout="wide")
-st.title("Resume Screening)")
+st.title("Resume Screening")
 
 uploaded_files = st.file_uploader("Upload Resumes (PDF)", type=["pdf"], accept_multiple_files=True)
 jd_text = st.text_area("Paste Job Description", height=250)
