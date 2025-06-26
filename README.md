@@ -12,3 +12,18 @@
 
 
 
+## ⚙️ Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone <your-repo-url>
+cd Resume-Screening
+```
+
+##Set up environment variables
+Create a .env file and add your Hugging Face token:
+``` HF_TOKEN=your_huggingface_token_here```
+
+## Run the App :
+```streamlit run streamlit_ui.py```
