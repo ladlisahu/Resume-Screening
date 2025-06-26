@@ -21,13 +21,13 @@ git clone <your-repo-url>
 cd Resume-Screening
 ```
 
-### Set up environment variables
+### 2. Set up environment variables
 Create a .env file and add your Hugging Face token:
 ```bash 
 HF_TOKEN=your_huggingface_token_here
 ```
 
-## Run the App :
+## 3. Run the App :
 ```bash 
 streamlit run streamlit_ui.py
 ```
